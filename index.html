@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+            type="text/javascript"></script>
+    <script src="behavior.js" type="text/javascript"></script>
+    <style type="text/css">
+        #SeriesCovers
+        {
+            clear: both;
+            float: left;
+            width: 600px;
+            padding: 10px;
+            margin-right: 20px;
+            border: 3px solid navy;
+            background-color: #e0e0e0;
+        }
+
+        #SeriesCovers img
+        {
+            margin: 5px;
+            border: 2px solid #c0c0c0;
+        }
+
+        #ComicsCovers
+        {
+            width: 400px;
+            height: 400px;
+            border: 1px solid gray;
+            float: left;
+        }
+
+        .comicInfo
+        {
+            float: left;
+            border: 1px solid black;
+        }
+
+        .comicInfo p
+        {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<div><span>Character:<input type="text" id="character"/><button type="button" id="getCharacterSeries">Get Character Series</button></span></div>
+<div id="SeriesCovers"></div>
+<div id="ComicsCovers"></div>
+
+</body>
+</html>
