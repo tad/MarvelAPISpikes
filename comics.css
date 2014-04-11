@@ -51,6 +51,7 @@
 #pagination
 {
     margin-bottom: 5px;
+    width: 600px;
 }
 
 #prevPage, #nextPage, #prevComicsPage, #nextComicsPage
