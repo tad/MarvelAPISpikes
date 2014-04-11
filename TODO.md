@@ -1,0 +1,2 @@
+When you click on the series, it should display the first page of comics for that series in the Comics container and then allow for pagination across that collection if there's more than pageSize.
+    * To do this, we need to refactor out the pagination code. That's what I'm working on now.
