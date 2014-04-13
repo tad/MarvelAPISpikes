@@ -1,3 +1,3 @@
 When you click on an individual series, it should display the first page of comics for that series in the Comics container and then allow for pagination across that collection if there's more than pageSize.
-    * Fix Series Pagination - currently only first page shows up - the code that shows n/x pages (between prev and next buttons) is borked
-    * Series pagination has been refactored. Need to add pagination for Comics once a series is selected.
+    * Take data out of .attr and put into .data - doing this should alleviate need to do intParse.
+    * Need to add pagination for Comics once a series is selected.
