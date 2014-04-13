@@ -54,12 +54,13 @@
     width: 600px;
 }
 
-#prevPage, #nextPage, #prevComicsPage, #nextComicsPage
+.prevPage, .nextPage
 {
     border: 1px solid black;
+    margin: 2px;
 }
 
-#pageNumber, #comicsPageNumber
+.pageNumber
 {
     margin-left: 10px;
     margin-right: 10px;
