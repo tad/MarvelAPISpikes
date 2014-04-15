@@ -1,6 +1,8 @@
 MarvelAPISpikes
 ===============
 
+###This is toy code - there is no error handling. This is not representative of pretty and clean code###
+
 Index.html - this is the primary page for this toy. Type in a Marvel character name and press the button. Series in
 which the character appears will show up in the box below. 18 titles at a time will display. This display is paginated.
 
@@ -11,9 +13,8 @@ allow you to open it on Marvel's website if you subscribe to Marvel Ultimate.
 characterlist.html - click the button to see a list of all ~1400 characters that Marvel has in its database. You need
 to use the character's name as it shows up in this list on the index.html page.
 
-*This is toy code - there is no error handling. This is not representative of pretty and clean code*.
+This is very much a work in progress. It's something I do when I need to relax.
 
-This is very much a work in progress.
 Code may not be clean, properly refactored or even working. I check in code when I'm done working for the day and
 there won't be a stable branch.
 
