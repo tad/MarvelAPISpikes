@@ -1,6 +1,6 @@
 MarvelAPISpikes
 ===============
-CURRENT CHECK IN IS FUBAR. WORK IN PROGRESS
+This is toy code - there is no error handling. This is not representative of pretty and clean code.
 
 This is very much a work in progress.
 Code may not be clean, properly refactored or even working. I check in code when I'm done working for the day and there won't be a stable branch.
