@@ -3,6 +3,13 @@ MarvelAPISpikes
 
 ###This is toy code - there is no error handling. This is not representative of pretty and clean code###
 
+NOTE: If you want to run the code in this repository, you'll need to add a key.js file. In the key.js file, create a
+variable like this:
+
+var userKey = "apikey=YOURAPIKEY&ts=YOURTIMESTAMP&hash=YOURHASH"
+
+Please see instructions here: http://developer.marvel.com/documentation/authorization
+
 Index.html - this is the primary page for this toy. Type in a Marvel character name and press the button. Series in
 which the character appears will show up in the box below. 18 titles at a time will display. This display is paginated.
 
