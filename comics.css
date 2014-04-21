@@ -1,3 +1,18 @@
+#container
+{
+    width: 2000px;
+}
+
+#series
+{
+    float: left;
+}
+
+#comicscovers
+{
+    float: right;
+}
+
 #SeriesCovers
 {
     display: inline;
@@ -50,10 +65,10 @@
     margin-bottom: 5px;
 }
 
-#pagination
+#pagination, #comicsPagination
 {
     margin-bottom: 5px;
-    width: 600px;
+
 }
 
 .prevPage, .nextPage, .loading
@@ -68,7 +83,14 @@
     margin-right: 10px;
 }
 
-
+.comicDetails
+{
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 150px;
+    margin-top: 50px;
+    left: 50%;
+}
 
 
 #indicator
